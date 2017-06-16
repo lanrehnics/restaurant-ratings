@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Restaurant Details</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding *ngIf="restaurant">
+  <ion-card>
+    <ion-card-header>
+      <h1>{{restaurant.Name}}</h1>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+    </ion-card-content>
+    <ion-card-content>{{restaurant.Address}}</ion-card-content>
+  </ion-card>
+</ion-content>
