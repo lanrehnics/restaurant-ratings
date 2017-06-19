@@ -21,4 +21,9 @@ export class HomePage {
   viewDetails(restaurant: Restaurant) {
     this.navCtrl.push("RestaurantDetailPage", restaurant);
   }
+
+  viewSearchPage() {
+    this.navCtrl.push("RestaurantSearchPage");
+  }
+
 }
